@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 12rem;
+    width: 100vw;
+    background-color: lightcyan;
+}
+main div{
+    display: flex;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#fetchC{
+    display: flex;
+    height: 2.7rem;
+    width: 10.5rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.1rem;
+}

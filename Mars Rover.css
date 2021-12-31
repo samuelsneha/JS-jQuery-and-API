@@ -1,0 +1,22 @@
+main{
+    margin-top: 5rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightcyan;
+}
+#dateDiv{
+    height: 3rem;
+    width:14rem;
+}
+input{
+    height: 1.5rem;
+}
+button{
+    height: 2.5rem;
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

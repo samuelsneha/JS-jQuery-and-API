@@ -1,0 +1,18 @@
+#outer-circle{
+    height:50px;
+    width:125px;
+    border:2px solid black;
+    border-radius:2rem;
+    margin-left:6rem;
+    margin-top:3rem;
+}
+#inner-circle{
+    height:50px;
+    width:50px;
+    background-color:black;
+    border-radius:50%;
+}
+#text{
+    margin-left:5rem;
+    font-weight:bolder;
+}

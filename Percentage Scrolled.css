@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text p{
+    font-family: serif;
+    color: blue;
+    margin: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 8rem;
+}
+#big-box{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#big-box #img-box{
+    height: 250px;
+    width: 450px;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+}
+#img-box img{
+    height: 100%;
+    width: 100%;
+}
+#percent-bar{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 3rem;
+    background-color: blueviolet;
+    position: fixed;
+    right: 2%;
+    top: 3rem;
+    text-align: center;
+    color: white;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}

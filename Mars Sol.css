@@ -1,0 +1,30 @@
+main{
+    height: 11rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightcyan;
+    margin-top: 5rem;
+}
+#sol{
+    height: 1.8rem;
+    width: 12rem;
+    justify-content: center;
+    align-items: center;
+}
+#page{
+    height: 1.8rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 2.3rem;
+    width: 8.5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.1rem;
+
+}

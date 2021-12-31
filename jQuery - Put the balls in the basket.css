@@ -1,0 +1,33 @@
+body{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+#addButton{
+    height:65px;
+    width:300px;
+    font-size:1.5rem;
+    font-family:sans-serif;
+    margin-bottom:200px;
+}
+#div1{
+    height:auto;
+    /* auto is dafault property of height and width */
+    width:1328px;
+    background-color:lightblue;
+    border-bottom:10px double black;
+    border-left:10px double black;
+    border-right:10px double black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* align-items: end; */
+  /* to get in up direction  we did flex wrap - wrap reverse */
+}
+#newBall{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: inline-block;
+}
