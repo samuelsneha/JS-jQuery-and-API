@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    position: relative;
+    perspective: 500px;
+    display: inline-block;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav > li{
+    display: inline-block;
+    position: relative;
+}
+.dropdowns{
+    display: none;
+    margin-top: 0.8rem;
+    position: absolute;
+    transition: all 0.3s;
+    transform: translateY(40px);
+    opacity: 0;
+}
+.dropdowns li{
+    margin-left: -2rem;
+    /* display: none; */
+}
+#first{
+    margin-right: 7rem;
+}
+#second{
+    margin-right: 7rem;
+}
+#third{
+    margin-right: 7rem;
+}
+.trigger-enter .dropdowns{
+    display: block;
+}
+.trigger-enter-active .dropdowns{
+    opacity: 1;
+}
+/* D1 - Some doubts in this class */
+.dropdownBackground{ 
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: burlywood;
+    border-radius: 20%;
+    opacity: 0;
+    box-shadow: 0px 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba( 50, 50,93,.15), 0 5px 15px rgba(0,0,0,.1) ;
+    transition: all 0.5s, opacity 0.1s, translate 0.1s;
+    transform-origin: 50%, 0%;
+}
+.dropdownBackground.open{
+    opacity: 1;
+}
+.arrow{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: burlywood;
+    transform: translateY(-50%) rotate(45deg);
+}

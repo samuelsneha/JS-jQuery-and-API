@@ -3,8 +3,12 @@ function fetchBreeds(){
         url:'https://dog.ceo/api/breeds/list/all',
         method:'get',
         success:function(data){
-            let breeds = Object.keys(data.message);//Object.keys(name of the object)
+            console.log(data.message);//returns an object
+            console.log(data.message.bulldog);//returns an array with boston, english and french as the elements in the array
+            console.log(data.message.bulldog.length);//returns 3. Its like object.key.length
+            let breeds = Object.keys(data.message);//Object.keys(name of the object). Breed returns an array
             console.log(breeds);
+            console.log(breeds[5]);
             for(let i = 0; i < breeds.length; i++ ){
                 $('#dogsDropdown').append( `<option value= ${breeds[i]}> ${breeds[i]} </option>`);
             }

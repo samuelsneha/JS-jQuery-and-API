@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+#one{
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightcyan;
+    margin-top: 1rem;   
+}
+#two{
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightyellow;
+    margin-top: 1rem; 
+}
+#sol{
+    height: 1.8rem;
+    width: 12rem;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 2.5rem;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.1rem;
+
+}
